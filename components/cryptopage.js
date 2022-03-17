@@ -99,36 +99,50 @@ const cryptopage = () => {
                 <p className='font-poppins font-[400] text-[16px] text-new max-w-[246px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
 
               </div>
+              <div>
+                <Image  src="/lines.svg" alt='none' width={50} height={50} />
+              
+              </div>
+               
               {/* left mid */}
               <div>
               <div className='flex-col  xs:mb-10 md:mb-0'>
-                <Image src="/phone.svg" alt='none' width={50} height={50} />
+                  <Image src="/phone.svg" alt='none' width={50} height={50} />
+                  
+                  <p className='font-poppins font-[400] text-new'>Step 2</p>
+                  <h1 className='font-verdanab font-[700] text-[18px] text-black mt-3'>Connect Wallet</h1>
+                  <p className='font-poppins font-[400] text-[16px] text-new max-w-[246px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+
+                </div>
                 
-                <p className='font-poppins font-[400] text-new'>Step 2</p>
-                <h1 className='font-verdanab font-[700] text-[18px] text-black mt-3'>Connect Wallet</h1>
-                <p className='font-poppins font-[400] text-[16px] text-new max-w-[246px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
 
               </div>
-
+              <div>
+                <Image  src="/lines.svg" alt='none' width={50} height={50} />
+              
               </div>
               {/* right mid */}
               <div>
               <div className='flex-col xs:mb-10 md:mb-0 '>
                 <Image src="/arrow.svg" alt='none' width={50} height={50} />
                 
-                <p className='font-poppins font-[400] text-new'>Step 4</p>
+                <p className='font-poppins font-[400] text-new'>Step 3</p>
                 <h1 className='font-verdanab font-[700] text-[18px] text-black mt-3'>Earn Money</h1>
                 <p className='font-poppins font-[400] text-[16px] text-new max-w-[246px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
 
               </div>
 
               </div>
+              <div>
+                <Image  src="/lines.svg" alt='none' width={50} height={50} />
+              
+              </div>
               {/* right */}
               <div>
               <div className='flex-col xs:mb-10 md:mb-0'>
                 <Image src="/cash.svg" alt='none' width={50} height={50} />
                 
-                <p className='font-poppins font-[400] text-new'>Step 1</p>
+                <p className='font-poppins font-[400] text-new'>Step 4</p>
                 <h1 className='font-verdanab font-[700] text-[18px] text-black mt-3'>Download</h1>
                 <p className='font-poppins font-[400] text-[16px] text-new max-w-[246px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
 

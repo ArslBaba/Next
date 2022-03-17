@@ -1,9 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'IvyMode';
+  src: url("./IvyMode-Regular.ttf");
+
+  font-family: 'Verdana';
+  src: url("./verdanab.ttf");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 a {
@@ -13,4 +26,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.swiper-container {width: 300px; }  
+@media screen and (min-width: 320px) {   .swiper-container {     width: 320px;   } }  
+@media screen and (min-width: 768px) {   .swiper-container {     width: 768px;   } }
+@layer components 
+{
+  .swiper-slide-next .card {
+    @apply bg-white shadow-xl -m-7 transition-all;
+  }
+  .swiper-slide-next .desc {
+    @apply visible;
+  }
+}
+.swiper{
+  padding:5rem 0 !important;
 }
